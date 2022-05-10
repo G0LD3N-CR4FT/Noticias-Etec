@@ -1,6 +1,6 @@
-bg-project {
-    background-image: url('../img/etec.png');
- background-position: center;
- background-size: cover;
- height: 100vh; 
+.bg-banner {
+    background-image: url('../img/banner.png');
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
 }
