@@ -9,22 +9,26 @@
     color: #545454;
     font-size: 140%;
     font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.bg-pesquisa { 
-    background-color: #9f0000;     
+
+.bg-global-2 {
+    color: #545454;
+    font-size: 90%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.bg-home:hover { 
-    color: #9f0000; 
+
+.bg-pesquisa {
+    background-color: #9f0000;
+}
+
+.bg-home:hover {
+    color: #9f0000;
     transition: 0.3s;
-   
 }
 
-.bg-button:hover { 
-    color: #a6a6a6; 
+.bg-button:hover {
+    color: #a6a6a6;
     transition: 0.3s;
-   
 }
-
-
-
