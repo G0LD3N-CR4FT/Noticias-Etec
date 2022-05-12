@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .bg-banner {
     background-image: url('../img/banner.png');
     background-position: center;
@@ -31,4 +36,48 @@
 .bg-button:hover {
     color: #a6a6a6;
     transition: 0.3s;
+}
+
+.bg-navbar {
+    top: 0;
+    position: sticky;
+    padding: 10px;
+    z-index: 99;
+}
+
+#topbar {
+    background: #415561;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+#topbar .contact-info i {
+    font-style: normal;
+    color: #aa0e10;
+}
+
+#topbar .contact-info i a,
+#topbar .contact-info i span {
+    padding-left: 5px;
+    color: #fff;
+}
+
+#topbar .contact-info i a {
+    line-height: 0;
+    transition: 0.3s;
+}
+
+#topbar .contact-info i a:hover {
+    color: #aa0e10;
+}
+
+#topbar .social-links a {
+    color: #bababa;
+    line-height: 0;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+#topbar .social-links a:hover {
+    color: white;
 }
