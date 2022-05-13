@@ -8,7 +8,6 @@ body {
     background-position: center;
     background-size: cover;
     height: 90vh;
-    opacity: 0.8;
 }
 
 .bg-global {
@@ -44,6 +43,28 @@ body {
     position: sticky;
     padding: 10px;
     z-index: 99;
+}
+
+.bg-alinhamento {
+    margin-top: 240px;
+}
+
+.bg-bannerstyle1 {
+    color: #415561;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-bannerstyle2 {
+    color: #415561;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-bannerstyle3 {
+    color: #9f0000;
 }
 
 #topbar {
