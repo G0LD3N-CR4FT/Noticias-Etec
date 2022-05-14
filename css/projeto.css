@@ -33,8 +33,16 @@ body {
     transition: 0.3s;
 }
 
+.bg-button {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 .bg-button:hover {
-    color: #a6a6a6;
+    color: #9f0000;
     transition: 0.3s;
 }
 
@@ -45,8 +53,14 @@ body {
     z-index: 99;
 }
 
+.bg-menubutton {
+    color: #415561;
+    font-size: 150%;
+    padding: 10px;
+}
+
 .bg-alinhamento {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .bg-bannerstyle1 {
@@ -57,8 +71,10 @@ body {
 }
 
 .bg-bannerstyle2 {
-    color: #415561;
-    font-size: 140%;
+    color: #363636;
+    font-size: 150%;
+    font-family: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .bg-bannerstyle3 {
@@ -73,7 +89,7 @@ body {
     font-size: 125%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 30px;
     width: 250px;
     height: 100%;
@@ -84,6 +100,10 @@ body {
     background: none;
     color: #9f0000;
     transition: 0.5s;
+}
+
+.bg-search:hover {
+    color: #9f0000;
 }
 
 #topbar {
