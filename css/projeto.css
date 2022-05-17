@@ -134,6 +134,11 @@ body {
     font-weight: bold;
 }
 
+.bg-img-evento {
+    height: 500px;
+    border-radius: 20px;
+}
+
 #topbar {
     background: #415561;
     padding: 10px 0;
