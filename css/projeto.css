@@ -135,8 +135,27 @@ body {
 }
 
 .bg-img-evento {
-    height: 500px;
+    height: 100vh;
     border-radius: 20px;
+    opacity: 0.8;
+}
+
+.bg-fundoeventos {
+    background-color: #ffffff;
+    height: 200px;
+    border: 2px solid #363636;
+    border-radius: 20px;
+}
+
+.bg-text-evento {
+    font-size: 40px;
+    color: #9f0000;
+}
+
+.bg-text2-evento {
+    margin-bottom: 200px;
+    font-size: 20px;
+    color: #363636;
 }
 
 #topbar {
