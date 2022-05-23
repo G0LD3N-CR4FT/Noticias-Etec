@@ -37,8 +37,8 @@ body {
     transition: 0.3s;
 }
 
-.bg-collapse{
-    background-color: #f0f0f0d3; 
+.bg-collapse {
+    background-color: #f0f0f0d3;
 }
 
 .bg-button {
@@ -131,6 +131,18 @@ body {
     border-radius: 10px;
 }
 
+.bg-cursor-secundario {
+    cursor: pointer;
+    border: 2px solid #415561;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.espaçamento {
+    padding-inline-start: 20px;
+}
+
 .bg-styleheader {
     color: #9f0000;
     font-size: 30px;
@@ -145,8 +157,6 @@ body {
     border-radius: 20px;
     opacity: 0.8;
 }
-
-
 
 .bg-fundoeventos {
     background-color: #ffffff;
