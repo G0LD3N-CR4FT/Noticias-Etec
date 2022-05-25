@@ -50,6 +50,17 @@ body {
     transition: 0.3s;
 }
 
+.animate__backInDown {
+ animation: animate__backInDown;
+ animation-duration: 1s;
+}
+
+.animate__backInUp {
+    animation: animate__backInUp;
+    animation-duration: 2s;
+}
+
+
 .bg-navbar {
     top: 0;
     position: sticky;
@@ -137,6 +148,7 @@ body {
     border-radius: 10px;
     margin-left: 5px;
     margin-right: 5px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 /10%);
 }
 
 .espaçamento {
