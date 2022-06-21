@@ -240,6 +240,19 @@ body {
     font-size: 90%;
 }
 
+.curso-button {
+    background-color: #9f0000;
+    height: 50px;
+    width: 300px;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.curso-button:hover {
+    background-color: transparent;
+    color: #9f0000;
+}
+
 #topbar {
     background: #415561;
     padding: 10px 0;
