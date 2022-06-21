@@ -253,6 +253,16 @@ body {
     color: #9f0000;
 }
 
+::-webkit-scrollbar {
+    width: 14px;
+    background-color: #415561;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
 #topbar {
     background: #415561;
     padding: 10px 0;
