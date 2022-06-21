@@ -194,11 +194,50 @@ body {
 }
 
 .bg-rodapé {
-    background-color: #415561;
+    background-color: #3e3e3e;
+}
+
+.inferior-rodapé {
+    background-color: #2e2e2e;
+    height: 20vh;
 }
 
 .bg-txtrodapé {
     color: #ffffff;
+    margin-top: 5px;
+}
+
+.bg-txtrodapé2 {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.decor {
+    color: #ffffff;
+}
+
+.decor:hover {
+    color: #9f0000;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.bg-margin {
+    margin-top: 10px;
+}
+
+.tamanho {
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.copy-css {
+    font-weight: bold;
+}
+
+.alinhamento-contato-endereco {
+    font-size: 90%;
 }
 
 #topbar {
