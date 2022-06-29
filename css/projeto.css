@@ -135,7 +135,6 @@ body {
 }
 
 .bg-cursor {
-    cursor: pointer;
     border: 3px solid #415561;
     padding: 10px;
     border-radius: 10px;
@@ -148,10 +147,6 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     box-shadow: 0px 2px 15px rgb(0 0 0 /10%);
-}
-
-.bg-cursor:hover {
-    color: #9f0000;
 }
 
 .bg-cursor-secundario:hover {
@@ -246,6 +241,7 @@ body {
     width: 300px;
     color: #ffffff;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .curso-button:hover {
@@ -262,6 +258,69 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
 }
+
+
+/*Modal */
+
+.modal-button {
+    background-color: #9f0000;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.modal-button:hover {
+    background-color: transparent;
+    color: #9f0000;
+    cursor: pointer;
+}
+
+.modal-button2 {
+    background-color: #9f0000;
+    height: 70px;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.modal-button2:hover {
+    background-color: transparent;
+    color: #9f0000;
+    cursor: pointer;
+}
+
+.fechar-button {
+    background-color: #9f0000;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.fechar-button:hover {
+    background-color: transparent;
+    color: #9f0000;
+    cursor: pointer;
+}
+
+.img-modal {
+    margin-bottom: 20px;
+}
+
+.Titulo-modal {
+    color: #9f0000;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+/* Fim Modal */
 
 #topbar {
     background: #415561;
