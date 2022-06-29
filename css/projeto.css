@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -229,6 +233,7 @@ body {
 
 .copy-css {
     font-weight: bold;
+    margin-top: 50px;
 }
 
 .alinhamento-contato-endereco {
@@ -321,6 +326,45 @@ body {
 
 
 /* Fim Modal */
+
+/* Botão de voltar ao Topo */
+#btnTop{
+position: fixed;
+bottom: 18px;
+right: 30px;
+height: 60px;
+width: 60px;
+background: #9f0000;
+border: none;
+border-radius: 100%;
+font-size: 20px;
+    color: #ffffff;
+    display: none;
+}
+
+#btnTop:hover{
+    background: #ffffff;
+    transition: 0.2;
+    color: #9f0000;
+    }
+
+/* Fim Botão do Topo */
+
+/* Links dos Botões do jumbotron */
+
+#principal{
+    height: 100px;
+}
+
+#eventos{
+    height: 100px;
+}
+
+#cursos{
+    height: 100px;
+}
+
+/* Fim dos Links dos Botões do jumbotron */
 
 #topbar {
     background: #415561;

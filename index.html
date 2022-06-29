@@ -94,9 +94,10 @@
                 <input type="button" value="Notícias por curso"></a>
         </div>
     </div>
+    <div id="principal"></div>
     <div class="row bg-noticias">
         <div class="col-12 col-sm-12 col-md-12">
-            <div class="bg-stylebackgroundheader" id="principal">
+            <div class="bg-stylebackgroundheader">
                 <div class="row-mt-3">
                     <p class="text-center bg-styleheader">Notícias Principais</p>
                 </div>
@@ -237,11 +238,12 @@
             </div>
         </div>
     </div>
+    <div id="eventos"></div>
     <div class="row bg-noticias">
         <div class="col-12 col-sm-12 col-md-12">
             <div class="bg-stylebackgroundheader">
                 <div class="row-mt-3">
-                    <p class="text-center bg-styleheader" id="eventos">Eventos</p>
+                    <p class="text-center bg-styleheader">Eventos</p>
                 </div>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -529,11 +531,12 @@
             </div>
         </div>
     </div>
+    <div id="cursos"></div>
     <div class="row bg-noticias">
         <div class="col-12 col-sm-12 col-md-12">
             <div class="bg-stylebackgroundheader">
                 <div class="row-mt-3">
-                    <p class="text-center bg-styleheader" id="cursos">Notícias por curso</p>
+                    <p class="text-center bg-styleheader">Notícias por curso</p>
                 </div>
             </div>
         </div>
@@ -956,9 +959,28 @@
                 </div>
             </div>
         </div>
+        <button onclick="backToTop();" id="btnTop"><i class="fa-solid fa-arrow-up"></i></button>
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="https://kit.fontawesome.com/6dad4ecfaf.js" crossorigin="anonymous"></script>
+        <script>
+            window.onscroll = function(){
+                scroll();
+            }
+            /* Função Botão Topo */
+            function scroll(){
+                var btn = document.getElementById("btnTop");
+                if(document.documentElement.scrollTop > 200){
+                    btn.style.display = "block";
+                }else{
+                    btn.style.display = "none"; 
+                }
+            }
+            /* Função ir para o Topo */
+            function backToTop(){
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
 </body>
 
 </html>
