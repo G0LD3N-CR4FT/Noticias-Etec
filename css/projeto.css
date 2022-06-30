@@ -1,4 +1,4 @@
-*{
+* {
     scroll-behavior: smooth;
 }
 
@@ -327,42 +327,47 @@ body {
 
 /* Fim Modal */
 
+
 /* Botão de voltar ao Topo */
-#btnTop{
-position: fixed;
-bottom: 18px;
-right: 30px;
-height: 60px;
-width: 60px;
-background: #9f0000;
-border: none;
-border-radius: 100%;
-font-size: 20px;
+
+#btnTop {
+    position: fixed;
+    bottom: 18px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: #9f0000;
+    border: none;
+    border-radius: 100%;
+    font-size: 20px;
     color: #ffffff;
     display: none;
 }
 
-#btnTop:hover{
+#btnTop:hover {
     background: #ffffff;
     transition: 0.2;
     color: #9f0000;
-    }
+}
+
 
 /* Fim Botão do Topo */
 
+
 /* Links dos Botões do jumbotron */
 
-#principal{
+#principal {
     height: 100px;
 }
 
-#eventos{
+#eventos {
     height: 100px;
 }
 
-#cursos{
+#cursos {
     height: 100px;
 }
+
 
 /* Fim dos Links dos Botões do jumbotron */
 

@@ -105,7 +105,7 @@
             <div class="container-fluid">
                 <div class="row bg-cursor">
                     <div class="col-12 col-sm-5 col-md-5">
-                        <img class="img-fluid" src="img/ImagemPrincipal1.jpg">
+                        <img class="img-fluid img-card" src="img/ImagemPrincipal1.jpg">
                     </div>
                     <div class="col-12 col-sm-7 col-md-7">
                         <h4 class="text-justify text-danger">Buracos Negros</h4>
@@ -919,6 +919,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Rodapé -->
     <div class="container-fluid bg-rodapé mt-3">
         <div class="row">
             <div class="col-12 col-sm-5 col-md-5">
@@ -959,25 +961,27 @@
                 </div>
             </div>
         </div>
+        <!-- Fim do Rodapé -->
+
         <button onclick="backToTop();" id="btnTop"><i class="fa-solid fa-arrow-up"></i></button>
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="https://kit.fontawesome.com/6dad4ecfaf.js" crossorigin="anonymous"></script>
         <script>
-            window.onscroll = function(){
-                scroll();
-            }
-            /* Função Botão Topo */
-            function scroll(){
+            window.onscroll = function() {
+                    scroll();
+                }
+                /* Função Botão Topo */
+            function scroll() {
                 var btn = document.getElementById("btnTop");
-                if(document.documentElement.scrollTop > 200){
+                if (document.documentElement.scrollTop > 200) {
                     btn.style.display = "block";
-                }else{
-                    btn.style.display = "none"; 
+                } else {
+                    btn.style.display = "none";
                 }
             }
             /* Função ir para o Topo */
-            function backToTop(){
+            function backToTop() {
                 document.documentElement.scrollTop = 0;
             }
         </script>
